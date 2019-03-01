@@ -17,7 +17,8 @@ namespace SistemaWeb.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Curso C# teste";
+            ViewData["email"] = "joaovitor@gmail.com";
 
             return View();
         }
@@ -25,6 +26,7 @@ namespace SistemaWeb.Controllers
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
+            
 
             return View();
         }
